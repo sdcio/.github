@@ -1,4 +1,4 @@
-# Schema Driven Configuration (SDCIO)
+# Schema Driven Configuration (SDC)
 
 The paradigm of schema-driven API approaches is gaining increasing popularity as it facilitates programmatic interaction with systems by both machines and humans. While OpenAPI schema stands out as a widely embraced system, there are other notable schema approaches like YANG, among others. This project endeavors to empower users with a declarative and idempotent method for seamless interaction with API systems, providing a robust foundation for effective system configuration."
 
@@ -63,13 +63,14 @@ Home of the code of the project homepage.
 
 ## License and governance
 
-Code in the SDCIO public repositories is licensed under the Apache License 2.0.
+The SDC code in the (sdcio)[https://github.com/sdcio] organisations public repositories is licensed under the
+Apache License 2.0.
 At the moment, the project is governed by the benevolent dictatorship of @henderiw @steiler @karimra and @hansthienpondt 
 In the long run, we plan to move to a meritocracy-based governance model.
 
 ## Presentations
 
-Presentations about SDCIO:
+Presentations about SDC:
 
 - ONE Summit 2024: [Cloud Native YANG Mgmt - Wim Henderickx, Nokia](https://sched.co/1YUs3), [video](https://www.youtube.com/watch?v=dHOeqbqkN1s)
 
