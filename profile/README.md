@@ -63,10 +63,13 @@ Home of the code of the project homepage.
 - Full Config or Config Snippets
 - Declarative Operation
 
-## License and governance
+## License, Code of Conduct and governance
 
-The SDC code in the [sdcio](https://github.com/sdcio) organisations public repositories is licensed under the
-Apache License 2.0.
+Code is under the [Apache License 2.0](https://github.com/sdcio/docs/blob/main/LICENSE), documentation is under
+[CC BY 4.0](https://github.com/sdcio/docs/blob/main/LICENSE-documentations).
+
+The SDC project is following the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md). More information and links about the CNCF Code of Conduct are [here](https://github.com/sdcio/docs/blob/main/code-of-conduct.md).
+
 At the moment, the project is governed by the benevolent dictatorship of @henderiw @steiler @karimra and @hansthienpondt 
 In the long run, we plan to move to a meritocracy-based governance model.
 
