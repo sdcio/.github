@@ -65,9 +65,10 @@ Home of the code of the project homepage.
 
 ## License, Code of Conduct and governance
 
-Code is under the [Apache License 2.0](LICENSE), documentation is [CC BY 4.0](LICENSE-documentation).
+Code is under the [Apache License 2.0](https://github.com/sdcio/docs/blob/main/LICENSE), documentation is under
+[CC BY 4.0](https://github.com/sdcio/docs/blob/main/LICENSE-documentations).
 
-The SDC project is following the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md). More information and links about the CNCF Code of Conduct are [here](code-of-conduct.md).
+The SDC project is following the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md). More information and links about the CNCF Code of Conduct are [here](https://github.com/sdcio/docs/blob/main/code-of-conduct.md).
 
 At the moment, the project is governed by the benevolent dictatorship of @henderiw @steiler @karimra and @hansthienpondt 
 In the long run, we plan to move to a meritocracy-based governance model.
