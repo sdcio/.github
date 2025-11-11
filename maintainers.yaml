@@ -1,0 +1,133 @@
+# This file contain s the maintainers of the SDC project per repository
+
+maintainers:
+- name: Wim Henderickx
+  github: henderiw
+  email: wim.henderickx@nokia.com
+  company: Nokia
+  projects:
+    - schema-server
+    - cache
+    - yang-parser
+    - data-server
+    - sdc-protos
+    - config-server
+    - docs
+    - integration-tests
+    - sdctl
+    - nos
+    - .github
+    - sdcio-demo
+    - demo-infra
+    - yang-coverage
+    - sdc-lite
+    - arista-yang-patch
+    - autocon2-workshop-infra
+    - srlinux-yang-patch
+    - kubectl-sdcio
+    - intent-builder
+    - logger
+- name: Markus Vahlenkamp
+  github: steiler
+  email: markus.vahlenkamp@nokia.com
+  company: Nokia
+  projects:
+    - schema-server
+    - cache
+    - yang-parser
+    - data-server
+    - sdc-protos
+    - config-server
+    - docs
+    - integration-tests
+    - sdctl
+    - nos
+    - .github
+    - sdcio-demo
+    - demo-infra
+    - yang-coverage
+    - sdc-lite
+    - arista-yang-patch
+    - autocon2-workshop-infra
+    - srlinux-yang-patch
+    - kubectl-sdcio
+    - intent-builder
+    - logger
+- name: Hans Thienpondt
+  github: hansthienpondt
+  email: hans.thienpondt@nokia.com
+  company: Nokia
+  projects:
+    - schema-server
+    - cache
+    - yang-parser
+    - data-server
+    - sdc-protos
+    - config-server
+    - docs
+    - integration-tests
+    - sdctl
+    - nos
+    - .github
+    - sdcio-demo
+    - demo-infra
+    - yang-coverage
+    - sdc-lite
+    - arista-yang-patch
+    - autocon2-workshop-infra
+    - srlinux-yang-patch
+    - kubectl-sdcio
+    - intent-builder
+    - logger
+- name: Karim Radhouani
+  github: karimra
+  email: karim.radhouani@nokia.com
+  company: Nokia
+  projects:
+    - schema-server
+    - cache
+    - yang-parser
+    - data-server
+    - sdc-protos
+    - config-server
+    - docs
+    - integration-tests
+    - sdctl
+    - nos
+    - .github
+    - sdcio-demo
+    - demo-infra
+    - yang-coverage
+    - sdc-lite
+    - arista-yang-patch
+    - autocon2-workshop-infra
+    - srlinux-yang-patch
+    - kubectl-sdcio
+    - intent-builder
+    - logger
+- name: Alexander North
+  github: alexandernorth
+  email: alexander.north1@swisscom.com
+  company: Swisscom
+  projects:
+    - schema-server
+    - cache
+    - yang-parser
+    - data-server
+    - sdc-protos
+    - config-server
+    - docs
+    - integration-tests
+    - sdctl
+    - nos
+    - .github
+    - sdcio-demo
+    - demo-infra
+    - yang-coverage
+    - sdc-lite
+    - arista-yang-patch
+    - autocon2-workshop-infra
+    - srlinux-yang-patch
+    - kubectl-sdcio
+    - intent-builder
+    - logger
