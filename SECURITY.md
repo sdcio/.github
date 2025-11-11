@@ -19,7 +19,7 @@ Email:
           problem
         * the affected version(s)
         * any possible mitigations, if known
-1. You will receive a reply from one of the maintainers within 7
+1. You will receive a reply from one of the maintainers within 7 days
    acknowledging receipt of the email.
 1. You may be contacted by one of the [maintainers](maintainers.yaml) to further discuss the reported item.
    Please bear with us as we seek to understand the breadth and scope of the
