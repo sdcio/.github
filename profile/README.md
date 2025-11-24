@@ -79,6 +79,17 @@ Presentations about SDC:
 
 - ONE Summit 2024: [Cloud Native YANG Mgmt - Wim Henderickx, Nokia](https://sched.co/1YUs3), [video](https://www.youtube.com/watch?v=dHOeqbqkN1s)
 
+## Roadmap
+
+1H 2026
+- YANG1.1
+- distrobuted deployment
+- senstive configs
+
+2H 2026
+- network wide transactions
+- YANG push
+
 ## Join us
 
 Have questions, ideas, bug reports or just want to chat? Come join [our discord server](https://discord.com/channels/1240272304294985800/1311031796372344894).
