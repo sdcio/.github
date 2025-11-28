@@ -83,7 +83,7 @@ Presentations about SDC:
 
 1H 2026
 - YANG1.1
-- distrobuted deployment
+- distributed deployment
 - senstive configs
 
 2H 2026
