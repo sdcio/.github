@@ -84,7 +84,7 @@ Presentations about SDC:
 1H 2026
 - YANG1.1
 - distributed deployment
-- senstive configs
+- sensitive configs
 
 2H 2026
 - network wide transactions
