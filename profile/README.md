@@ -89,6 +89,7 @@ Presentations about SDC:
 2H 2026
 - network wide transactions
 - YANG push
+- NETCONF actions
 
 ## Join us
 
