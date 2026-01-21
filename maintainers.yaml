@@ -131,3 +131,29 @@ maintainers:
     - kubectl-sdcio
     - intent-builder
     - logger
+- name: Severin Dellsperger
+  github: severindellsperger
+  email: severin.dellsperger@gmail.com
+  company: OST University/Independent
+  projects:
+    - schema-server
+    - cache
+    - yang-parser
+    - data-server
+    - sdc-protos
+    - config-server
+    - docs
+    - integration-tests
+    - sdctl
+    - nos
+    - .github
+    - sdcio-demo
+    - demo-infra
+    - yang-coverage
+    - sdc-lite
+    - arista-yang-patch
+    - autocon2-workshop-infra
+    - srlinux-yang-patch
+    - kubectl-sdcio
+    - intent-builder
+    - logger
