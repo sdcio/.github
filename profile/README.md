@@ -52,7 +52,6 @@ Home of the code of the project homepage.
 
 ### [sdc-protos](https://github.com/sdcio/sdc-protos)
 
-
 ## Features
 
 - Schema's: [YANG][yang], others TBD
@@ -63,12 +62,16 @@ Home of the code of the project homepage.
 - Full Config or Config Snippets
 - Declarative Operation
 
+## Adopeters
+
+Adopters of the porject are collected in the [ADOPTERS](ADOPTERS.md) file. 
+
 ## License, Code of Conduct and governance
 
-Code is under the [Apache License 2.0](https://github.com/sdcio/docs/blob/main/LICENSE), documentation is under
-[CC BY 4.0](https://github.com/sdcio/docs/blob/main/LICENSE-documentations).
+The SDC code in the [sdcio](https://github.com/sdcio) organisations public repositories is licensed under the
+Apache License 2.0 [Apache License 2.0](LICENSE), documentation is licensed under [CC BY 4.0](LICENSE-documentation).
 
-The SDC project is following the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md). More information and links about the CNCF Code of Conduct are [here](https://github.com/sdcio/docs/blob/main/code-of-conduct.md).
+The SDC project is following the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md). More information and links about the CNCF Code of Conduct are [here](code-of-conduct.md).
 
 At the moment, the project is governed by the benevolent dictatorship of @henderiw @steiler @karimra and @hansthienpondt 
 In the long run, we plan to move to a meritocracy-based governance model.
@@ -81,7 +84,8 @@ Presentations about SDC:
 
 ## Join us
 
-Have questions, ideas, bug reports or just want to chat? Come join [our discord server](https://discord.com/channels/1240272304294985800/1311031796372344894).
+Have questions, ideas, bug reports or just want to chat? Come join [our discord channel](https://discord.com/channels/1240272304294985800/1311031796372344894).
+
 
 [yang]: https://en.wikipedia.org/wiki/YANG
 [gnmi]: https://github.com/openconfig/reference/blob/master/rpc/gnmi/gnmi-specification.md
