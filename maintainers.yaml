@@ -157,3 +157,29 @@ maintainers:
     - kubectl-sdcio
     - intent-builder
     - logger
+- name: Fabian Schulz
+  github: faebr
+  email: fabian.schulz1@swisscom.com
+  company: Swisscom
+  projects:
+    - schema-server
+    - cache
+    - yang-parser
+    - data-server
+    - sdc-protos
+    - config-server
+    - docs
+    - integration-tests
+    - sdctl
+    - nos
+    - .github
+    - sdcio-demo
+    - demo-infra
+    - yang-coverage
+    - sdc-lite
+    - arista-yang-patch
+    - autocon2-workshop-infra
+    - srlinux-yang-patch
+    - kubectl-sdcio
+    - intent-builder
+    - logger
