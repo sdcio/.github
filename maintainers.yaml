@@ -81,8 +81,8 @@ maintainers:
     - logger
 - name: Karim Radhouani
   github: karimra
-  email: karim.radhouani@nokia.com
-  company: Nokia
+  email: 
+  company: 
   projects:
     - schema-server
     - cache
