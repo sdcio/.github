@@ -2,27 +2,38 @@
 
 ![sdc logo](https://docs.sdcio.dev/assets/logos/SDC-transparent-withname-100x133.png)
 
-The paradigm of schema-driven API approaches is gaining increasing popularity as it facilitates programmatic interaction with systems by both machines and humans. While OpenAPI schema stands out as a widely embraced system, there are other notable schema approaches like YANG, among others. This project endeavors to empower users with a declarative and idempotent method for seamless interaction with API systems, providing a robust foundation for effective system configuration.
+## Documentation
 
-## Architecture
+Documentation of SDC lives in https://docs.sdcio.dev/
 
-The project consists of 4 components:
+## GitHub organization structure
 
-![pic](https://github.com/sdcio/docs/blob/main/docs/diagrams/sdc-architecture.drawio.png)
+The GitHub organization for SDC (sdcio) has several repositories due to the architecture of the project.
 
 ### Schema-server
 
-The schema server component is a versatile repository for schemas from diverse vendors and versions. It features a gRPC API for seamless schema querying and dynamic management, allowing users to load and unload schemas in real time. The integration of a CLI enhances user interaction, providing a familiar command-line interface. Operating in a stateless architecture, it offers scalability, while optional schema persistence caters to users requiring persistent storage. In essence, the schema server combines flexibility, efficiency, and user-friendliness for effective schema management in dynamic API environments.
+The schema server component is a versatile repository for schemas from diverse vendors and versions. It features a gRPC
+API for seamless schema querying and dynamic management, allowing users to load and unload schemas in real time. The
+integration of a CLI enhances user interaction, providing a familiar command-line interface. Operating in a stateless
+architecture, it offers scalability, while optional schema persistence caters to users requiring persistent storage. In
+essence, the schema server combines flexibility, efficiency, and user-friendliness for effective schema management in
+dynamic API environments.
 Schema-server is developed in the [schema-server](https://github.com/sdcio/schema-server) repository.
 
 ### Data-server
 
-The data-server component serves as a versatile intermediary, connecting the config-server, schema-server, cache, and xNF/Device in a stateless design for scalability. It features a North-bound API for both imperative and declarative interactions and supports various South-bound protocols. With dedicated DataStores per target, flexible synchronization options, candidate-based interactions, and the ability to connect multiple data servers per device, it provides a resilient and adaptable foundation for managing and synchronizing data in dynamic system environments.
+The data-server component serves as a versatile intermediary, connecting the config-server, schema-server, cache, and
+xNF/Device in a stateless design for scalability. It features a North-bound API for both imperative and declarative
+interactions and supports various South-bound protocols. With dedicated DataStores per target, flexible synchronization
+options, candidate-based interactions, and the ability to connect multiple data servers per device, it provides a
+resilient and adaptable foundation for managing and synchronizing data in dynamic system environments.
 The Data-server is developed in the [data-server](https://github.com/sdcio/data-server) repository.
 
 ### Cache
 
-The cache component manages multiple datastores, including Config, State, and Intended, along with Intent metadata. It offers the option for persistent data storage, complemented by a gRPC API for seamless interaction. Additionally, the cache component provides a derived Command Line Interface (CLI) for user-friendly access and configuration.
+The cache component manages multiple datastores, including Config, State, and Intended, along with Intent metadata. It
+offers the option for persistent data storage, complemented by a gRPC API for seamless interaction. Additionally, the
+cache component provides a derived Command Line Interface (CLI) for user-friendly access and configuration.
 The Cache is developed in the [cache](https://github.com/sdcio/cache) repository. 
 
 ### Config-server
@@ -38,19 +49,28 @@ The config-server is a Kubernetes-based Operator and comprises several controlle
     - Implements validation checks, rejecting configurations that fail validation.
 The Config-server is developed in the [config-server](https://github.com/sdcio/config-server) repository. 
 
-## Additional repositories
+### Additional repositories
 
-### [yang-parser](https://github.com/sdcio/yang-parser)
+#### [yang-parser](https://github.com/sdcio/yang-parser)
 
 A YANG parser.
 
-### [docs](https://github.com/sdcio/docs)
+#### [docs](https://github.com/sdcio/docs)
 
 Home of the code of the project homepage. 
 
-### [sdctl](https://github.com/sdcio/sdctl)
+#### [sdctl](https://github.com/sdcio/sdctl)
 
-### [sdc-protos](https://github.com/sdcio/sdc-protos)
+#### [sdc-protos](https://github.com/sdcio/sdc-protos)
+
+## Report issues
+
+Report component specific issues as individual issues in each components repository. 
+
+Report project level issues to the .github repo. 
+
+In case of any questions ask us on
+[our discord channel](https://discord.com/channels/1240272304294985800/1311031796372344894).
 
 ## Features
 
@@ -73,26 +93,31 @@ Apache License 2.0 [Apache License 2.0](LICENSE), documentation is licensed unde
 
 The SDC project is following the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md). More information and links about the CNCF Code of Conduct are [here](code-of-conduct.md).
 
-At the moment, the project is governed by the benevolent dictatorship of @henderiw @steiler @karimra and @hansthienpondt 
-In the long run, we plan to move to a meritocracy-based governance model.
+The project is governed by the [maintainers](https://github.com/sdcio/.project/blob/main/maintainers.yaml) of the
+project.
+
+On the long run we plan to define a written governance.
 
 ## Presentations
 
 Presentations about SDC:
 
+- Container Days 2025: The Cloud-Native Advantage: Intent-based Network Automation - Alexander North & Markus Vahlenkamp
+  , [video](https://www.youtube.com/watch?v=P7cCeGBq3aQ)
 - ONE Summit 2024: [Cloud Native YANG Mgmt - Wim Henderickx, Nokia](https://sched.co/1YUs3), [video](https://www.youtube.com/watch?v=dHOeqbqkN1s)
+
 
 ## Roadmap
 
-1H 2026
-- YANG1.1
-- distributed deployment
-- sensitive configs
-
 2H 2026
-- network wide transactions
-- YANG push
+- sensitive configs / secrets
 - NETCONF actions
+
+1H 2027
+- network wide transactions
+- Scale
+- High availability
+ 
 
 ## Join us
 
