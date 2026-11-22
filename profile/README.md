@@ -118,6 +118,9 @@ Presentations about SDC:
 - Scale
 - High availability
  
+ ## Badges
+
+ - [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16486/badge)](https://www.bestpractices.dev/projects/16486)
 
 ## Join us
 
